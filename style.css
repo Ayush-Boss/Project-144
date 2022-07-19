@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL8QRsVTTmdNWnNrbmCtermCEPvLYAr8JiUQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size: x-large !important;
+    font-weight: bolder !important;
+}
+
+button{
+    font-size: large !important;
+    font-weight: bolder !important;
+}
+
+canvas{
+    animation-name: CanvasAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes CanvasAni{
+    0%{box-shadow: 5px 5px 38px orange;}
+    50%{box-shadow: 5px 5px 38px white;}
+    100%{box-shadow: 5px 5px 38px green;}
+}
